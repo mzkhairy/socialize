@@ -37,10 +37,10 @@ Socialize is a Flutter-based mobile application designed to help users discover,
 * **Language:** Dart
 * **State Management:** Provider
 * **Maps & Location:**
-    * `Maps_flutter` (Map Display)
+    * `google_maps_flutter` (Map Display)
     * `geolocator` (GPS Access & Distance Calculation)
     * `geocoding` (Coordinate to Address Conversion)
-    * `Maps_webservice` (Google Places API Integration for location search)
+    * `google_maps_webservice` (Google Places API Integration for location search)
 * **Local Storage:** `shared_preferences` (Theme Preferences, etc.)
 * **Utilities:**
     * `intl` (Date & Time Formatting)
@@ -62,9 +62,9 @@ Socialize is a Flutter-based mobile application designed to help users discover,
     *(Ensure this API Key has Maps SDK for Android, Places API, and Geocoding API enabled in your Google Cloud Console).*
 
 3.  **Configure the Native Android Google Maps API Key:**
-    Open the file `android/app/src/main/AndroidManifest.xml`. Find the following line and replace `YOUR_ANDROID_MAPS_API_KEY_PLACEHOLDER` with your Google Maps API Key:
+    Open the file `android/app/src/main/AndroidManifest.xml`. Find the following line and replace `YOUR_GOOGLE_API_KEY_HERE` with your Google Maps API Key:
     ```xml
-    <meta-data android:name="com.google.android.geo.API_KEY" android:value="YOUR_ANDROID_MAPS_API_KEY_PLACEHOLDER"/>
+    <meta-data android:name="com.google.android.geo.API_KEY" android:value="YOUR_GOOGLE_API_KEY_HERE"/>
     ```
     *(You can use the same API Key as in your `.env` file if that key is configured for all required services).*
 
