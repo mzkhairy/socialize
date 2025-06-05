@@ -1,7 +1,5 @@
 # Socialize App
 
-## Brief Application Description
-
 Socialize is a Flutter-based mobile application designed to help users discover, create, and join various local activities or events. This application aims to facilitate social interaction and participation in community activities around the user.
 
 ## Features and Functionalities
